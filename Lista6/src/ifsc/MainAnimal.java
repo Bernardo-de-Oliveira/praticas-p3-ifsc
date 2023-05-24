@@ -29,6 +29,7 @@ public class MainAnimal {
 		
 		gx.late();
 		
+		System.out.println("");
 		System.out.println(puxar.getNome());
 		System.out.println(puxar.getRaca());
 		System.out.println(puxar.getComprimento());

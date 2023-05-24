@@ -30,10 +30,10 @@ public class MainProduto {
 		prod.add(c);
 		
 		for(int i = 0;i<prod.size();i++) {
-			System.out.println(prod.get(1).getNome());
-			System.out.println(prod.get(1).getPreco());
-			System.out.println(prod.get(1).getFornecedor());
-			System.out.println(prod.get(1).getCodBarras());
+			System.out.println(prod.get(i).getNome());
+			System.out.println(prod.get(i).getPreco());
+			System.out.println(prod.get(i).getFornecedor());
+			System.out.println(prod.get(i).getCodBarras());
 			System.out.println("\n");
 		}
 		
